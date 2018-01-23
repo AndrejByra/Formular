@@ -1,0 +1,172 @@
+body{
+    background-image: url(k.png);
+}
+     
+#table{
+margin: auto;
+background-color: #1F2833;
+color: #66FCF1;
+width: 350px;
+height: 340px;
+border:2px solid #66FCF1;
+font-family: "Comic Sans MS", cursive, sans-serif;
+opacity: 0.85;
+}
+td,th {border:none}
+
+#showTable{
+width: 30%;
+height: 10%;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+background-color: #1F2833;
+color: white;
+border:2px solid #66FCF1;
+font-family: "Comic Sans MS", cursive, sans-serif;
+opacity: 0.85;
+}
+
+   
+
+#errfname{
+	color: red;
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#errlname{
+	color: red;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#errDate{
+	color: red;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+
+.table tr:nth-child(even) {background: #276360}
+.table tr:nth-child(odd) {background: #45A29E}
+
+
+#send {
+  white-space: nowrap;
+  color: white;
+  font-size: 11px;
+    display: block;
+    margin-left: 10%;
+    margin-top: 3%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  overflow: hidden;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  padding: 0.4em 0.8em;
+  font-size: 1.8em;
+  letter-spacing: 5px;
+  border-radius: 5px;
+  border: 8px solid #66FCF1;
+  color: #66FCF1;
+  background: none;
+  width: 11%;
+}
+#send:hover {
+  background-color: #66FCF1;
+  color: #45A29E;
+  border: 8px solid #45A29E;
+  width: 11%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+input[type=text]{
+    		
+   padding: 8px 12px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #45A29E;
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    
+    	}
+input[type=date]{
+box-sizing: border-box;
+    border: none;
+    background-color: #45A29E;
+    color: white;
+   padding: 6px 32px;
+   
+}
+#selectGender{
+box-sizing: border-box;
+    border: none;
+    background-color: #45A29E;
+    color: white;
+    
+}
+#formTable{
+	
+}
+#btnsave{
+ white-space: nowrap;
+  color: white;
+  font-size: 11px;
+    display: block;
+    margin-left: 10%;
+    margin-top: 3%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  overflow: hidden;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  padding: 0.4em 0.8em;
+  font-size: 1.8em;
+  letter-spacing: 5px;
+  border-radius: 5px;
+  border: 8px solid #66FCF1;
+  color: #66FCF1;
+  background: none;
+  width: 11%;
+  display: inline-block;
+
+}
+#btnsave:hover{
+background-color: #66FCF1;
+  color: #45A29E;
+  border: 8px solid #45A29E;
+  width: 11%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#btnload{
+   white-space: nowrap;
+  color: white;
+  font-size: 11px;
+    display: block;
+    margin-left: 10%;
+    margin-top: 3%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  overflow: hidden;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  padding: 0.4em 0.8em;
+  font-size: 1.8em;
+  letter-spacing: 5px;
+  border-radius: 5px;
+  border: 8px solid #66FCF1;
+  color: #66FCF1;
+  background: none;
+  width: 11%;
+  display: inline-block;
+}
+#btnload:hover{
+  background-color: #66FCF1;
+  color: #45A29E;
+  border: 8px solid #45A29E;
+  width: 11%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#svld{
+
+  
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylefo.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body>
+    <div id="formTable" weight="150px" height="150px">
+        <table id="table" align="center" border="2">
+            <tr>
+                <td>
+                    <span class="name"> First Name</span>
+                </td>
+                <td>
+                    <input id="fName"  type="text" name="firstname" placeholder="Firstname" >
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><div id="errfname"></div></td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="name"> Last Name</span> 
+                </td>
+                <td>
+                    <input id="lName"  type="text" name="lastname" placeholder="Lastname" >
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><div id="errlname"></div></td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="name"> Date</span> 
+                </td>
+                <td>
+                    <input id="compareDate" type="date" name="date">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><div id="errDate"></div></td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="name"> Gender</span>        
+                </td>
+                <td>
+                    <input class="check" id="male" type="radio" name="gender" value="male"><span>Male</span><br>
+                    <input class="check" id="female" type="radio" name="gender" value="female"><span>Female</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="name"> Show Gender</span>
+                </td>
+                <td>
+                    <select id="selectGender">
+                        <option name = "selectGender" class="genderValue" value="a">Both</option>
+                        <option name = "selectGender" class="genderValue" value="f">Female</option>
+                        <option name = "selectGender" class="genderValue" value="m">Male</option>
+                    </select>
+                </td>
+            </tr>   
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="age" id="showAge"> <span>SHOW AGE</span> </td>
+            </tr>
+        </table>
+        
+            <div id="btnSend" align="center"><button id="send" type="submit" name="odoslat" >Submit</button></div>
+            
+         
+    </div>
+
+    <div id="showTable" class="table" align="center"></div>
+
+    <div id="svld" align="center"> 
+        <button id="btnsave">Save</button> 
+        <button id="btnload">Load</button> 
+    </div>
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="formular.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   
+</body>
+</html>
